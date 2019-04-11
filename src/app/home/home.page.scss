@@ -1,19 +1,14 @@
-ion-content.background {
-    --background: url(../../assets/icon/thomas-tucker-391058-unsplash.jpg) 0 0/100% 100% no-repeat;
-
-}
-
-div.opacity {
-  background-color: rgba(0,0,0,0.5);
-  height: 100%;
-
+.background {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url('../../assets/icon/thomas-tucker-391058-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 p.center-p {
   position: relative;
   text-align: center;
   top: 36%;
-  margin-top: 150px;
+  margin-top: 160px;
   font-size: 2em;
   text-transform: capitalize;
   font-family: karla, sans-serif;
